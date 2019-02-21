@@ -47,10 +47,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>..\..\bin\net_4_0\</OutputPath>
-    <DefineConstants>TRACE;NET_4_5, CLR_4_0,NUNITLITE</DefineConstants>
+    <DefineConstants>TRACE;NET_4_0, CLR_4_0,NUNITLITE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
@@ -345,6 +344,7 @@
     <Compile Include="GuiUnit\XmlTestListener.cs" />
     <Compile Include="GuiUnit\AdditionalAsserts.cs" />
     <Compile Include="GuiUnit\GtkMainLoopIntegration.cs" />
+    <Compile Include="Constraints\CollectionSupersetConstraint.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

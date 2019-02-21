@@ -5,3 +5,6 @@ src/framework/obj/*
 *.userprefs
 src/TestResultConsole/obj/*
 *.csproj.CoreCompileInputs.cache
+**/.vs/*
+**/*.nupkg
+
